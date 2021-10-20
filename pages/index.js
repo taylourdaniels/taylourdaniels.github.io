@@ -63,7 +63,7 @@ export default function Home() {
             <Link href='#about' m='3'>About</Link>
             <Link href='#projects' m='3'>Projects</Link>
             <Link href='#contact' m='3'>Contact</Link>
-            <Link href="blog" m='3' mr='4' color='yellow.100'>Thoughts and Ideas</Link>
+            <Link href="#projects" m='3' mr='4' color='yellow.100'>Thoughts and Ideas</Link>
           </Box> 
       </Flex>
 
