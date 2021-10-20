@@ -42,32 +42,6 @@ function Project({ title, description, link, alternative, ...rest}) {
   )
 }
 
-function BasicModal() {
-  const { isOpen, onOpen, onClose } = useDisclosure()
-  return (
-    <>
-      <Modal isOpen={isOpen} onClose={onClose}>
-        <ModalOverlay />
-        <ModalContent>
-          <ModalHeader>Contact Me</ModalHeader>
-          <ModalCloseButton />
-          <ModalBody>
-            <Textarea></Textarea>
-            <Textarea></Textarea>
-          </ModalBody>
-
-          <ModalFooter>
-            <Button colorScheme="blue" mr={3} onClick={onClose}>
-              Close
-            </Button>
-            <Button variant="ghost">Send</Button>
-          </ModalFooter>
-        </ModalContent>
-      </Modal>
-    </>
-  )
-}
-
 export default function Home() {
   return (
     <Box>
